@@ -1,0 +1,218 @@
+@font-face {font-family: 'Circular Spotify Tx T';
+		src: url('../fonts/CircularSpotifyTxT-Med.ttf')}
+@font-face {font-family: 'Circular Spotify Tx T Black';
+		src: url('../CircularSpotifyTxT-Black.ttf')}
+
+.my-class{
+	font-family: 'Circular Spotify Tx T';
+	background: #000000;
+	overflow-x: hidden;
+}
+/******************************  CABEÇALHO  *********************/
+header{
+  background-color: #000000E6;
+  height:2.8em;
+  width: 100%;
+  color:white;
+  line-height: 2.8em;
+  position: fixed;
+  top: 0;
+	z-index: 9999;
+}
+header a{
+	text-decoration: none;
+	color: white;
+}
+header a:hover{
+	text-decoration: none;
+	color: white;
+}
+.navbar{
+	height:2.8em;
+	line-height: 2.8em;
+	margin-left: 4em;
+	margin-right: 5em;
+}
+#logo img{
+	height: 1.5em;
+}
+.menu ul{
+	list-style: none;
+
+}
+.page_item{
+	margin-left: 1em;
+	float: left;
+}
+/******************************  BANNER  *********************/
+#banner{
+	width: 100%;
+	height: 40em;
+	background: #000000 0% 0% no-repeat padding-box;
+	opacity: 0.7;
+	background-position: center;
+	background-size: cover;
+	margin-top: 1em;
+	padding-top: 15em;
+	padding-left: 5em;
+}
+.tag{
+	width: 5em;
+	height: 2em;
+	background-color: white;
+	color: #5A5A5A;
+	padding-top: 0.3em;
+	padding-bottom: 0.3em;
+	padding-left: 1em;
+	padding-right: 1em;
+	text-align: center;
+	font: normal normal medium 18px/100px Circular Spotify Tx T;
+	letter-spacing: 0.54px;
+	border-radius: 0.2em;
+}
+.duracao{
+	width: 5em;
+	height: 2em;
+	padding-top: 0.3em;
+	padding-bottom: 0.3em;
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+	color: white;
+	border: 1px solid white;
+	border-radius: 0.2em;
+}
+.titulo{
+	color: white;
+	width: 35em;
+}
+.titulo button{
+	width: 15em;
+	height: 2.5em;
+	background-color: #FF0000;
+}
+.titulo h1{
+	
+	font-weight: bold;
+	font-size: 3em;
+}
+/******************************  FILMES  *********************/
+.sessão{
+	width: 100%;
+	height: auto;
+	margin-top: 2.5em;
+	margin-bottom: 2.5em;
+	padding-left: 5em;
+}
+.sessão h2{
+	color: #FF0000;
+	font-size: 30px;
+}
+.filmesItem{
+	width: 11em;
+	height: 17em;
+	padding-right: .5em;
+
+}
+
+.filmesItem img{
+	width: 13em;
+	height: 80%;
+	margin-bottom: .5em;
+}
+
+.filmesItemCaroussel img{
+	width: 1em;
+	height: 16em;
+	margin-right: 2em;
+	margin-bottom: 1em;
+}
+.filmesItemCaroussel h3{
+	padding-top: 1em;
+	font-size: 20px;
+	color: white;
+}
+.filmesItem h3{
+	padding-top: 1em;
+	font-size: 20px;
+	color: white;
+}
+
+/******************************  FOOTER  *********************/
+footer{
+	width: 100%;
+	height: 18em;
+	background-color: #121212;
+	padding-left: 5em;
+	padding-top: 15vh;
+	color: #FFFFFF;
+}
+.logo img{
+	width: 6%;
+	margin-bottom: 1em;
+}
+
+/******************************  PÁGINA DE FILMES  *********************/
+
+#texto {
+	height: 100%;
+	color: white;
+	padding-left: 5em;
+	margin-top: 10em;
+	padding-right: 3em;
+	position: sticky;
+  	top: 4em;
+
+}
+#texto h2{
+	width: 100%;
+	height: auto;
+	color: #FF0000;
+	font-weight: bold;
+	padding-bottom: 1em;
+}
+#filmesLinks{
+	margin-top: 10em;
+	right: -1em;
+}
+.filmesItem{
+	height: 100%;
+}
+.filmesItem a{
+	width: 100%;
+	height: 100%;
+}
+/***************************** PÁGINA DE VIDEOS ********************************/
+#video-header{
+	margin-top: 8em;
+	margin-left: 12em;
+}
+#video-title{
+	margin-top: 0.5em;
+	font-size: 2.5em;
+	color: white;
+}
+#video-player{
+	width: 100%;
+	height: 35em;
+}
+#player{
+	width: 70em;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+#video-sinopse{
+	width: 100%;
+	padding-right: 13em;
+	padding-left: 19em;
+	color: white;
+}
+
+/* Caroussel */
+
+/* .owl-theme .owl-dots {
+	display:none;
+}
+.owl-theme .owl-nav{
+	display:none;
+} */
