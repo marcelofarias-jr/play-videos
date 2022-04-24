@@ -1,7 +1,7 @@
 <article>
 	<section id="video-header">
 		<div>
-  			<span class="tag">Filmes</span>
+  			<a href="http://localhost/play/index.php/filmes/"><span class="tag">Filmes</span></a>
 
   			<span class="duracao"><?php echo get_post_meta(the_ID(), 'duracao', 'true'); ?>m</span>
   			<h1 id="video-title"><?php the_title();?></h1>

@@ -11,7 +11,7 @@
 	<!-- Owl Caroussel -->
 	<!-- linkando os arquivos Owl Carousel 2 css -->
 	<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assets/css/carousel-owl/owl.carousel.min.css">
-  <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assets/css/carousel-owl/owl.theme.default.min.css">
+  	<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assets/css/carousel-owl/owl.theme.default.min.css">
 
 
 	<!-- <script src="<?php bloginfo('template_directory'); ?>/assets/js/jquery.min.js"></script>

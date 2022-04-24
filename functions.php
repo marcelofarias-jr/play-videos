@@ -5,13 +5,7 @@
 
 		wp_enqueue_style( 'template', get_template_directory_uri() . '/assets/css/style.css', array (), '1.0', 'all' );
 
-		wp_enqueue_style( 'template', get_template_directory_uri() . '/assets/css/owl.carousel.min.css', array (), '1.0', 'all' );
-
-		wp_enqueue_style( 'owlcarousel-theme', 'https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css', array (), '1.0', 'all' );
-
-		wp_enqueue_script( 'owlcarousel', 'https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js', array() );
-
-		
+	
 	//chamando o title
 	add_theme_support('title-tag');
 

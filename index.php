@@ -5,7 +5,9 @@
 		 background-origin:padding-box;
 		 background-position: center">
   <div>
-    <span class="tag">Filmes</span>
+    <a href="http://localhost/play/index.php/filmes/">
+      <span class="tag">Filmes</span>
+    </a>
     <span class="duracao">130m</span>
   </div>
   <div class="titulo">
@@ -18,79 +20,78 @@
   <h2>Filmes</h2>
   <div class="owl-carousel owl-theme">
     <div class="item filmesItemCaroussel">
-      <img src="<?php bloginfo('template_directory'); ?>/assets/img/pexels-gabriel-hohol-3593922.jpg">
+      <img src="<?php bloginfo('template_directory'); ?>/assets/img/pexels-gabriel-hohol-3593922.jpg" class="img-fluid">
       <span class="duracao">130m</span>
       <h3>In anim reprehenderit.</h3>
     </div>
     <div class="item filmesItemCaroussel">
-      <img src="<?php bloginfo('template_directory'); ?>/assets/img/pexels-ivy-son-3490257.jpg">
+      <img src="<?php bloginfo('template_directory'); ?>/assets/img/pexels-ivy-son-3490257.jpg" class="img-fluid">
       <span class="duracao">130m</span>
       <h3>In anim reprehenderit.</h3>
     </div>
     <div class="item filmesItemCaroussel">
-      <img src="<?php bloginfo('template_directory'); ?>/assets/img/pexels-dazzle-jam-1190208.jpg">
+      <img src="<?php bloginfo('template_directory'); ?>/assets/img/pexels-dazzle-jam-1190208.jpg" class="img-fluid">
       <span class="duracao">130m</span>
       <h3>In anim reprehenderit.</h3>
     </div>
     <div class="item filmesItemCaroussel">
-      <img src="<?php bloginfo('template_directory'); ?>/assets/img/pexels-pixabay-277253.jpg">
+      <img src="<?php bloginfo('template_directory'); ?>/assets/img/pexels-pixabay-277253.jpg" class="img-fluid">
       <span class="duracao">130m</span>
       <h3>In anim reprehenderit.</h3>
     </div>
     <div class="item filmesItemCaroussel">
-      <img src="<?php bloginfo('template_directory'); ?>/assets/img/pexels-pixabay-2346.jpg">
+      <img src="<?php bloginfo('template_directory'); ?>/assets/img/pexels-pixabay-2346.jpg" class="img-fluid">
       <span class="duracao">130m</span>
       <h3>In anim reprehenderit.</h3>
     </div>
     <div class="item filmesItemCaroussel">
-      <img src="<?php bloginfo('template_directory'); ?>/assets/img/pexels-francesco-ungaro-1525041.jpg">
+      <img src="<?php bloginfo('template_directory'); ?>/assets/img/pexels-francesco-ungaro-1525041.jpg" class="img-fluid">
       <span class="duracao">130m</span>
       <h3>In anim reprehenderit.</h3>
     </div>
     <div class="item filmesItemCaroussel">
-      <img src="<?php bloginfo('template_directory'); ?>/assets/img/pexels-chris-peeters-12801.jpg">
+      <img src="<?php bloginfo('template_directory'); ?>/assets/img/pexels-chris-peeters-12801.jpg" class="img-fluid">
       <span class="duracao">130m</span>
       <h3>In anim reprehenderit.</h3>
     </div>
   </div>
 </section>
-
 <!-- *********************Documentários********************* -->
 <section id="documentario" class="sessão">
   <h2>Documentários</h2>
   <div class="owl-carousel owl-theme">
     <div class="item filmesItemCaroussel">
-      <img src="<?php bloginfo('template_directory'); ?>/assets/img/pexels-andrea-piacquadio-3760259.jpg">
+      <img src="<?php bloginfo('template_directory'); ?>/assets/img/pexels-andrea-piacquadio-3760259.jpg" class="img-fluid">
       <span class="duracao">130m</span>
       <h3>In anim reprehenderit.</h3>
     </div>
     <div class="item filmesItemCaroussel">
-      <img src="<?php bloginfo('template_directory'); ?>/assets/img/pexels-jayson-marquez-4850412.jpg">
+      <img src="<?php bloginfo('template_directory'); ?>/assets/img/pexels-jayson-marquez-4850412.jpg" class="img-fluid">
       <span class="duracao">130m</span>
       <h3>In anim reprehenderit.</h3>
     </div>
     <div class="item filmesItemCaroussel">
-      <img src="<?php bloginfo('template_directory'); ?>/assets/img/pexels-rafael-paul-4797134.jpg">
+      <img src="<?php bloginfo('template_directory'); ?>/assets/img/pexels-rafael-paul-4797134.jpg" class="img-fluid">
       <span class="duracao">130m</span>
       <h3>In anim reprehenderit.</h3>
     </div>
     <div class="item filmesItemCaroussel">
-      <img src="<?php bloginfo('template_directory'); ?>/assets/img/pexels-cottonbro-4753879.jpg">
+      <img src="<?php bloginfo('template_directory'); ?>/assets/img/pexels-cottonbro-4753879.jpg" class="img-fluid">
       <span class="duracao">130m</span>
       <h3>In anim reprehenderit.</h3>
     </div>
     <div class="item filmesItemCaroussel">
-      <img src="<?php bloginfo('template_directory'); ?>/assets/img/pexels-kehn-hermano-3849167.jpg">
+      <img src="<?php bloginfo('template_directory'); ?>/assets/img/pexels-kehn-hermano-3849167.jpg" class="img-fluid">
       <span class="duracao">130m</span>
       <h3>In anim reprehenderit.</h3>
     </div>
     <div class="item filmesItemCaroussel">
-      <img src="<?php bloginfo('template_directory'); ?>/assets/img/pexels-thiago-matos-4576085.jpg">
+      <img src="<?php bloginfo('template_directory'); ?>/assets/img/pexels-thiago-matos-4576085.jpg" class="img-fluid">
       <span class="duracao">130m</span>
       <h3>In anim reprehenderit.</h3>
     </div>
     <div class="item filmesItemCaroussel">
-      <img src="<?php bloginfo('template_directory'); ?>/assets/img/pexels-jayson-marquez-4850421.jpg">
+      <img src="<?php bloginfo('template_directory'); ?>/assets/img/pexels-jayson-marquez-4850421.jpg" class="img-fluid">
       <span class="duracao">130m</span>
       <h3>In anim reprehenderit.</h3>
     </div>
@@ -101,37 +102,37 @@
   <h2>Séries</h2>
   <div class="owl-carousel owl-theme">
     <div class="item filmesItemCaroussel">
-      <img src="<?php bloginfo('template_directory'); ?>/assets/img/pexels-steve-682375.jpg">
+      <img src="<?php bloginfo('template_directory'); ?>/assets/img/pexels-steve-682375.jpg" class="img-fluid">
       <span class="duracao">130m</span>
       <h3>In anim reprehenderit.</h3>
     </div>
     <div class="item filmesItemCaroussel">
-      <img src="<?php bloginfo('template_directory'); ?>/assets/img/pexels-anastasia-shuraeva-4513214.jpg">
+      <img src="<?php bloginfo('template_directory'); ?>/assets/img/pexels-anastasia-shuraeva-4513214.jpg" class="img-fluid">
       <span class="duracao">130m</span>
       <h3>In anim reprehenderit.</h3>
     </div>
     <div class="item filmesItemCaroussel">
-      <img src="<?php bloginfo('template_directory'); ?>/assets/img/pexels-zachary-debottis-2568539.jpg">
+      <img src="<?php bloginfo('template_directory'); ?>/assets/img/pexels-zachary-debottis-2568539.jpg" class="img-fluid">
       <span class="duracao">130m</span>
       <h3>In anim reprehenderit.</h3>
     </div>
     <div class="item filmesItemCaroussel">
-      <img src="<?php bloginfo('template_directory'); ?>/assets/img/pexels-joey-kyber-134643.jpg">
+      <img src="<?php bloginfo('template_directory'); ?>/assets/img/pexels-joey-kyber-134643.jpg" class="img-fluid">
       <span class="duracao">130m</span>
       <h3>In anim reprehenderit.</h3>
     </div>
     <div class="item filmesItemCaroussel">
-      <img src="<?php bloginfo('template_directory'); ?>/assets/img/pexels-paul-kerby-genil-3703961.jpg">
+      <img src="<?php bloginfo('template_directory'); ?>/assets/img/pexels-paul-kerby-genil-3703961.jpg" class="img-fluid">
       <span class="duracao">130m</span>
       <h3>In anim reprehenderit.</h3>
     </div>
     <div class="item filmesItemCaroussel">
-      <img src="<?php bloginfo('template_directory'); ?>/assets/img/pexels-ekaterina-belinskaya-4674351.jpg">
+      <img src="<?php bloginfo('template_directory'); ?>/assets/img/pexels-ekaterina-belinskaya-4674351.jpg" class="img-fluid">
       <span class="duracao">130m</span>
       <h3>In anim reprehenderit.</h3>
     </div>
     <div class="item filmesItemCaroussel">
-      <img src="<?php bloginfo('template_directory'); ?>/assets/img/pexels-burak-k-1253049.jpg">
+      <img src="<?php bloginfo('template_directory'); ?>/assets/img/pexels-burak-k-1253049.jpg" class="img-fluid">
       <span class="duracao">130m</span>
       <h3>In anim reprehenderit.</h3>
     </div>
